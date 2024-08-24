@@ -5,6 +5,7 @@ import time
 
 driver = webdriver.Chrome()
 query = "laptop"
+file = 0
 
 for i in range(1,10):
     driver.get(f"https://www.amazon.in/s?k={query}&page={i}&crid=2AZFGVVZZZ6C8&sprefix=lapto%2Caps%2C360&ref=nb_sb_noss_2")
@@ -12,11 +13,10 @@ for i in range(1,10):
 
     print(elems) # class list
     for elem in elems:
-        print(elem.text)
-        print(len(elems))
-    
-
-# print(elem.text) # Fethching element
+         d = elem.get_attribute('outerHTML')
+         with open(f"data/{query}_{file}.html","w",encoding="utf-8") as f
+            f.write(d)
+            file = file + 1
 # print(elem.get_attribute("outerHTML")) 
 
     time.sleep(2)

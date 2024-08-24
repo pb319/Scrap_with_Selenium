@@ -12,6 +12,6 @@ elem.send_keys("anaconda")
 elem.send_keys(Keys.RETURN)
 assert "No results found." not in driver.page_source
 time.sleep(5)
-driver.close()
+driver.close() 
 
   
