@@ -1,11 +1,11 @@
 # Scrap_with_Selenium
-Let's dive deeper into the domain of web scraping using Selenium. This repository leverage automation tool selenium to scrap web pages and later on use Beautiful Soup to parse HTML files to fetch specific elements of concern.
+Let's dive deeper into the domain of web scraping using Selenium. This repository leverages automation tool Selenium to scrap web pages and later on uses Beautiful Soup to parse HTML files to fetch specific elements of concern.
 
 ### Table of Contents
--  [Resources](https://github.com/pb319/Scrap_with_Selenium/edit/main/README.md#resource) 
--  [Objective](https://github.com/pb319/Scrap_with_Selenium/edit/main/README.md#objective)
--  [Approach](https://github.com/pb319/Scrap_with_Selenium/edit/main/README.md#approach)
--  [Output Files](https://github.com/pb319/Scrap_with_Selenium/edit/main/README.md#output-files)
+-  [Resources](https://github.com/pb319/Scrap_with_Selenium#resource) 
+-  [Objective](https://github.com/pb319/Scrap_with_Selenium#objective)
+-  [Approach](https://github.com/pb319/Scrap_with_Selenium#approach)
+-  [Output Files](https://github.com/pb319/Scrap_with_Selenium#output-files)
 
 #### Resource:
 - Youtube Video Link: [Click Here](https://www.youtube.com/watch?v=XI5_nsClCYI&t=197s)
